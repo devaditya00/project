@@ -6,7 +6,7 @@ import Footer from "@/components/marketing/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://roshysdigital.com"),
   title: {
-    default: "Roshy's Digital — Brands that get noticed. Events people remember.",
+    default: "Roshy's Digital – Brands that get noticed. Events people remember.",
     template: "%s | Roshy's Digital",
   },
   description:
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://roshysdigital.com",
     siteName: "Roshy's Digital",
-    title: "Roshy's Digital — Brands that get noticed. Events people remember.",
+    title: "Roshy's Digital – Brands that get noticed. Events people remember.",
     description:
       "We combine digital marketing, creative strategy and event experiences to help ambitious brands grow.",
     images: [
@@ -67,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google Fonts — loaded via link to avoid Turbopack next/font bug */}
+        {/* Google Fonts – loaded via link to avoid Turbopack next/font bug */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

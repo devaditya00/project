@@ -33,7 +33,7 @@ export async function submitContactForm(
     await resend.emails.send({
       from: process.env.RESEND_FROM!,
       to: process.env.CONTACT_EMAIL!,
-      subject: `New Enquiry — ${name} (${service.replace(/-/g, " ")})`,
+      subject: `New Enquiry – ${name} (${service.replace(/-/g, " ")})`,
       html: adminNotificationTemplate({
         name,
         email,
@@ -50,7 +50,7 @@ export async function submitContactForm(
     await resend.emails.send({
       from: process.env.RESEND_FROM!,
       to: email,
-      subject: `We received your enquiry — Roshy's Digital`,
+      subject: `We received your enquiry – Roshy's Digital`,
       html: userAutoReplyTemplate({ name }),
     });
 

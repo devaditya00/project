@@ -10,7 +10,7 @@ const TESTIMONIALS = [
   {
     id: 1,
     quote:
-      "Roshy's Digital completely transformed how we show up online. Our jewellery campaigns have never looked this premium — the content stops people mid-scroll.",
+      "Roshy's Digital completely transformed how we show up online. Our jewellery campaigns have never looked this premium – the content stops people mid-scroll.",
     author: "Priya Mehta",
     role: "Founder",
     company: "Heer House of Jewellery",
@@ -21,7 +21,7 @@ const TESTIMONIALS = [
   {
     id: 2,
     quote:
-      "They handled our entire college fest — from ticketing to on-ground production. 4,000 attendees, zero chaos. Absolutely professional.",
+      "They handled our entire college fest – from ticketing to on-ground production. 4,000 attendees, zero chaos. Absolutely professional.",
     author: "Arjun Sharma",
     role: "Cultural Secretary",
     company: "St. Xavier's College",
@@ -43,7 +43,7 @@ const TESTIMONIALS = [
   {
     id: 4,
     quote:
-      "The event ticketing platform they built for us is seamless. Real-time check-ins, QR codes, payment integration — exactly what we needed.",
+      "The event ticketing platform they built for us is seamless. Real-time check-ins, QR codes, payment integration – exactly what we needed.",
     author: "Sneha Kapoor",
     role: "Operations Manager",
     company: "Mocha Café & Bar",
@@ -54,7 +54,7 @@ const TESTIMONIALS = [
   {
     id: 5,
     quote:
-      "Their social media team understands luxury marketing. Tanishq campaigns require precision — they delivered beyond expectations every single time.",
+      "Their social media team understands luxury marketing. Tanishq campaigns require precision – they delivered beyond expectations every single time.",
     author: "Vikram Nair",
     role: "Brand Manager",
     company: "Tanishq",
@@ -147,7 +147,7 @@ function FeaturedCard({
         }}
       />
 
-      {/* Top — stars + quote mark */}
+      {/* Top – stars + quote mark */}
       <div style={{ position: "relative", zIndex: 1 }}>
         <div
           style={{
@@ -189,7 +189,7 @@ function FeaturedCard({
         </blockquote>
       </div>
 
-      {/* Bottom — author + company */}
+      {/* Bottom – author + company */}
       <div style={{ position: "relative", zIndex: 1 }}>
         <div
           style={{
@@ -326,7 +326,7 @@ function SmallCard({
             </div>
           </div>
 
-          {/* Company logo placeholder — replace with <Image> */}
+          {/* Company logo placeholder – replace with <Image> */}
           <div
             style={{
               height: "28px",
@@ -358,7 +358,7 @@ function SmallCard({
   );
 }
 
-/* ── Trust bar — ratings row ── */
+/* ── Trust bar – ratings row ── */
 
 
 /* ── Main ── */
@@ -429,7 +429,7 @@ export default function TestimonialsSection() {
               }}
             >
               From jewellery brands to college fests, real estate launches to corporate
-              events — here&apos;s what our clients say about working with us.
+              events – here&apos;s what our clients say about working with us.
             </p>
           </div>
         </motion.div>
@@ -443,10 +443,10 @@ export default function TestimonialsSection() {
             gap: "12px",
           }}
         >
-          {/* Featured — spans 2 rows left */}
+          {/* Featured – spans 2 rows left */}
           <FeaturedCard t={featured} inView={inView} />
 
-          {/* 4 small cards — right 2 cols */}
+          {/* 4 small cards – right 2 cols */}
           {rest.map((t, i) => (
             <SmallCard key={t.id} t={t} delay={0.2 + i * 0.1} inView={inView} />
           ))}

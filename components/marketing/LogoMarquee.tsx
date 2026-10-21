@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 
 const EASE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
-/* ── Logo placeholder data — replace src with real logos ── */
+/* ── Logo placeholder data – replace src with real logos ── */
 const ROW_ONE = [
   { id: 1,  name: "Jerry Land"           },
   { id: 2,  name: "FirstCry"             },
@@ -187,10 +187,10 @@ export default function LogoMarquee() {
         transition={{ duration: 0.6, delay: 0.2, ease: EASE }}
         style={{ display: "flex", flexDirection: "column", gap: "12px" }}
       >
-        {/* Row 1 — scrolls LEFT */}
+        {/* Row 1 – scrolls LEFT */}
         <MarqueeRow items={ROW_ONE} direction="left" speed={40} />
 
-        {/* Row 2 — scrolls RIGHT */}
+        {/* Row 2 – scrolls RIGHT */}
         <MarqueeRow items={ROW_TWO} direction="right" speed={35} />
       </motion.div>
     </section>

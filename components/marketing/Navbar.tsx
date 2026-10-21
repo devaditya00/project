@@ -164,11 +164,11 @@ export default function Navbar() {
               height: "70px",
             }}
           >
-            {/* LEFT — Logo */}
+            {/* LEFT – Logo */}
             <Link
               href="/"
               className="select-none"
-              aria-label="Roshy's Digital — Home"
+              aria-label="Roshy's Digital – Home"
               style={{ marginLeft: "-40px" }}
             >
               <Image
@@ -186,7 +186,7 @@ export default function Navbar() {
               />
             </Link>
 
-            {/* CENTER — Desktop nav */}
+            {/* CENTER – Desktop nav */}
             <ul
               className="hidden lg:flex items-center gap-10 absolute left-1/2 -translate-x-1/2"
               style={{ listStyle: "none" }}
@@ -201,7 +201,7 @@ export default function Navbar() {
               ))}
             </ul>
 
-            {/* RIGHT — CTAs + Hamburger */}
+            {/* RIGHT – CTAs + Hamburger */}
             <div className="flex items-center gap-3">
               <Link
                 href="/events"

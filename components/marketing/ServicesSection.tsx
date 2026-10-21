@@ -87,7 +87,7 @@ const SERVICES = [
     title: "Event Production & Management",
     pillar: "Events",
     description:
-      "End-to-end production. Venue, logistics, vendors, AV, décor, coordination — all handled seamlessly.",
+      "End-to-end production. Venue, logistics, vendors, AV, décor, coordination – all handled seamlessly.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
@@ -182,7 +182,7 @@ const SERVICES = [
 ];
 
 /* ── Single service card ── */
-/* ── Illustrations — inline SVG per service ── */
+/* ── Illustrations – inline SVG per service ── */
 const ILLUSTRATIONS: Record<string, React.ReactNode> = {
   "01": ( // Brand Strategy
     <svg viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: "100%", height: "100%" }}>
@@ -682,7 +682,7 @@ export default function ServicesSection() {
       <span className="eyebrow">What We Do</span>
     </div>
 
-    {/* Main row — headline left, content right */}
+    {/* Main row – headline left, content right */}
     <div
       style={{
         display: "grid",
@@ -691,7 +691,7 @@ export default function ServicesSection() {
         gap: "clamp(3rem, 6vw, 8rem)",
       }}
     >
-      {/* LEFT — Headline */}
+      {/* LEFT – Headline */}
       <h2
         style={{
           fontFamily: "var(--font-display), Georgia, serif",
@@ -715,7 +715,7 @@ export default function ServicesSection() {
         </em>
       </h2>
 
-      {/* RIGHT — 3 columns of info */}
+      {/* RIGHT – 3 columns of info */}
       <div
         style={{
           display: "grid",
@@ -728,7 +728,7 @@ export default function ServicesSection() {
           {
             number: "14",
             label: "Services",
-            desc: "From brand strategy to event production — every discipline under one roof.",
+            desc: "From brand strategy to event production – every discipline under one roof.",
           },
           {
             number: "3",
@@ -795,7 +795,7 @@ export default function ServicesSection() {
       </div>
     </div>
 
-    {/* Bottom row — CTA right aligned */}
+    {/* Bottom row – CTA right aligned */}
     <div
       style={{
         display: "flex",

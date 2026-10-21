@@ -56,7 +56,7 @@ export default function AboutSection() {
       gap: "clamp(2rem, 4vw, 5rem)",
     }}
   >
-    {/* LEFT — Headline */}
+    {/* LEFT – Headline */}
     <h2
       style={{
         fontFamily: "var(--font-display), Georgia, serif",
@@ -94,7 +94,7 @@ export default function AboutSection() {
       </span>
     </h2>
 
-    {/* RIGHT — Logo */}
+    {/* RIGHT – Logo */}
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       animate={inView ? { opacity: 1, scale: 1 } : {}}
@@ -148,7 +148,7 @@ export default function AboutSection() {
             alignItems: "start",
           }}
         >
-          {/* LEFT — Description + CTA */}
+          {/* LEFT – Description + CTA */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -165,7 +165,7 @@ export default function AboutSection() {
               }}
             >
               We combine digital marketing, creative strategy and event
-              experiences to help ambitious brands grow — and create moments
+              experiences to help ambitious brands grow – and create moments
               people talk about long after they&apos;re over.
             </p>
 
@@ -212,7 +212,7 @@ export default function AboutSection() {
             </Link>
           </motion.div>
 
-          {/* RIGHT — Who We Are + Vision */}
+          {/* RIGHT – Who We Are + Vision */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -284,7 +284,7 @@ export default function AboutSection() {
                 }}
               >
                 To become India&apos;s most trusted creative partner for brands
-                that want substance over noise — combining marketing strategy
+                that want substance over noise – combining marketing strategy
                 with world-class event experiences.
               </p>
             </div>

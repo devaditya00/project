@@ -1,4 +1,4 @@
-/* ── Email to YOU — new lead notification ── */
+/* ── Email to YOU – new lead notification ── */
 export function adminNotificationTemplate({
   name,
   email,
@@ -142,19 +142,19 @@ export function userAutoReplyTemplate({ name }: { name: string }) {
         <div class="timeline">
           <div class="timeline-item">
             <div class="dot"></div>
-            <div class="timeline-text"><strong>Enquiry received</strong> — We've got your message.</div>
+            <div class="timeline-text"><strong>Enquiry received</strong> – We've got your message.</div>
           </div>
           <div class="timeline-item">
             <div class="dot" style="background:#D4D3C0"></div>
-            <div class="timeline-text"><strong>Team review</strong> — We'll review your requirements.</div>
+            <div class="timeline-text"><strong>Team review</strong> – We'll review your requirements.</div>
           </div>
           <div class="timeline-item">
             <div class="dot" style="background:#D4D3C0"></div>
-            <div class="timeline-text"><strong>Discovery call</strong> — We'll reach out to schedule a call.</div>
+            <div class="timeline-text"><strong>Discovery call</strong> – We'll reach out to schedule a call.</div>
           </div>
           <div class="timeline-item">
             <div class="dot" style="background:#D4D3C0"></div>
-            <div class="timeline-text"><strong>Proposal</strong> — Custom strategy built for your goals.</div>
+            <div class="timeline-text"><strong>Proposal</strong> – Custom strategy built for your goals.</div>
           </div>
         </div>
 

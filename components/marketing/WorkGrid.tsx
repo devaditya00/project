@@ -54,7 +54,7 @@ const WORKS: WorkItem[] = [
     title: "The Ordinary Brand Shoot",
     category: "Beauty",
     type: "video",
-    src: "/videos/ad3.mp4",
+    src: "/videos/ad3.MP4",
     gridColumn: "1 / 2",
     gridRow: "2 / 4",
     bg: "linear-gradient(145deg, #2A6B57 0%, #163329 100%)",
@@ -100,7 +100,7 @@ const cardShell: React.CSSProperties = {
   overflow: "hidden",
 };
 
-/* ── Video card — no link, no pointer events ── */
+/* ── Video card – no link, no pointer events ── */
 function VideoCard({ work }: { work: WorkItem }) {
   const [err, setErr] = useState(false);
 
@@ -157,7 +157,7 @@ function VideoCard({ work }: { work: WorkItem }) {
   );
 }
 
-/* ── Image card — clickable link ── */
+/* ── Image card – clickable link ── */
 function ImageCard({ work }: { work: WorkItem }) {
   const [err, setErr] = useState(false);
 

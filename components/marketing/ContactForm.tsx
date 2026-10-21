@@ -135,7 +135,7 @@ export default function ContactForm() {
             alignItems: "start",
           }}
         >
-          {/* ── LEFT — Info ── */}
+          {/* ── LEFT – Info ── */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -253,7 +253,7 @@ export default function ContactForm() {
             </div>
           </motion.div>
 
-          {/* ── RIGHT — Form ── */}
+          {/* ── RIGHT – Form ── */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -345,7 +345,7 @@ export default function ContactForm() {
                   gap: "1.25rem",
                 }}
               >
-                {/* Row 1 — Name + Email */}
+                {/* Row 1 – Name + Email */}
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                   <Field label="Full Name" error={errors.name?.message} required>
                     <input
@@ -368,7 +368,7 @@ export default function ContactForm() {
                   </Field>
                 </div>
 
-                {/* Row 2 — Phone + Company */}
+                {/* Row 2 – Phone + Company */}
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                   <Field label="Phone Number" error={errors.phone?.message}>
                     <input
@@ -391,7 +391,7 @@ export default function ContactForm() {
                   </Field>
                 </div>
 
-                {/* Row 3 — Service */}
+                {/* Row 3 – Service */}
                 <Field label="Service You Need" error={errors.service?.message} required>
                   <select
                     {...register("service")}
@@ -413,7 +413,7 @@ export default function ContactForm() {
                   </select>
                 </Field>
 
-                {/* Row 4 — Budget */}
+                {/* Row 4 – Budget */}
                 <Field label="Budget Range" error={errors.budget?.message}>
                   <select
                     {...register("budget")}
@@ -435,7 +435,7 @@ export default function ContactForm() {
                   </select>
                 </Field>
 
-                {/* Row 5 — Message */}
+                {/* Row 5 – Message */}
                 <Field label="Tell Us About Your Project" error={errors.message?.message} required>
                   <textarea
                     {...register("message")}

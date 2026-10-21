@@ -119,7 +119,7 @@ function Card({
         }}
       />
 
-      {/* Top left — category */}
+      {/* Top left – category */}
       <div
         style={{
           position: "absolute",
@@ -144,7 +144,7 @@ function Card({
         </span>
       </div>
 
-      {/* Top right — arrow */}
+      {/* Top right – arrow */}
       <div
         style={{
           position: "absolute",
@@ -171,7 +171,7 @@ function Card({
         </svg>
       </div>
 
-      {/* Bottom — title */}
+      {/* Bottom – title */}
       <div
         style={{
           position: "absolute",
@@ -247,7 +247,7 @@ export default function Hero() {
           }}
         >
           {/* ═══════════════════════════════
-              LEFT — Text
+              LEFT – Text
           ═══════════════════════════════ */}
           <div>
             {/* Eyebrow */}
@@ -307,7 +307,7 @@ export default function Hero() {
               }}
             >
               We combine digital marketing, creative strategy and event
-              experiences to help ambitious brands grow — and create moments
+              experiences to help ambitious brands grow – and create moments
               people talk about long after they&apos;re over.
             </motion.p>
 
@@ -459,7 +459,7 @@ export default function Hero() {
           </div>
 
           {/* ═══════════════════════════════
-              RIGHT — Project cards
+              RIGHT – Project cards
               Layout:
               [ Card 1 (tall) ] [ Card 2 ]
               [ Card 1 (tall) ] [ Card 3 ]

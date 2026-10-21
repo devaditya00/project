@@ -13,7 +13,7 @@ const CARDS = [
     title: "Luxury Brand Campaign",
     bg: "linear-gradient(150deg, #2A6B57 0%, #0F2D24 100%)",
     gridArea: "1 / 1 / 3 / 2",
-    video: "/videos/luxury-campaign.mp4",
+    video: "/videos/luxury-campaign.MP4",
   },
   {
     id: 2,

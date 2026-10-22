@@ -189,7 +189,7 @@ export default function ContactForm() {
                 },
                 {
                   label: "WhatsApp",
-                  value: "+91 950845 52874",
+                  value: "+91 95084 52874",
                   href: "https://wa.me/919508452874",
                 },
                 {
